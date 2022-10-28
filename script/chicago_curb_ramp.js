@@ -12,7 +12,7 @@
     $.ajax({
     'async': false,
     'global': false,
-    'url': "/data/chicago_curb_ramp.json",
+    'url': "https://raw.githubusercontent.com/crescendochu/validation-study-web/main/data/chicago_curb_ramp.json",
     'dataType': "json",
     'success': function (data) {
         arr = data;
